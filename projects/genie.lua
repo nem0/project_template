@@ -1,4 +1,4 @@
-local ide_dir = iif(_ACTION == nil, "vs2015", _ACTION)
+local ide_dir = iif(_ACTION == nil, "vs2019", _ACTION)
 if "linux-gcc" == _OPTIONS["gcc"] then
 	ide_dir = "gcc"
 elseif "linux-gcc-5" == _OPTIONS["gcc"] then
